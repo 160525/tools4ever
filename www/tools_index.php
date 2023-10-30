@@ -38,7 +38,7 @@ $title = "Tools overzicht";
                 foreach ($tools4ever as $tool):
             ?>
             <tr>
-                <td><?php echo $tool["tool_id"] ?></td>
+                <td class="id-style"><?php echo $tool["tool_id"] ?></td>
                 <td><?php echo $tool["tool_name"] ?></td>
                 <td><?php echo $tool["tool_category"] ?></td>
                 <td><?php echo $tool["tool_price"] ?></td>
