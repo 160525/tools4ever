@@ -31,6 +31,7 @@ $title = "Tools overzicht";
                 <th>Category</th>
                 <th>Price</th>
                 <th>Brand</th>
+                <th>Detail</th>
             </tr>
         </thead>
         <tbody>
@@ -43,6 +44,7 @@ $title = "Tools overzicht";
                 <td><?php echo $tool["tool_category"] ?></td>
                 <td><?php echo $tool["tool_price"] ?></td>
                 <td><?php echo $tool["tool_brand"] ?></td>
+                <td><a href="tools_detail.php?id=<?php  echo $tool["tool_id"] ?>">Bekijk meer details</a></td>
             </tr>
             <?php
                 endforeach
